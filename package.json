@@ -1,0 +1,32 @@
+{
+  "name": "@bladelizard/weight-converter",
+  "version": "0.1.0",
+  "description": "Conversor de unidades de peso, de kilogramos a libras y viceversa.",
+  "main": "dist/src/converter.js",
+  "scripts": {
+    "build": "babel src/converter.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabrielnz/weight-converter"
+  },
+  "keywords": [
+    "weight",
+    "converter",
+    "kilograms",
+    "pounds",
+    "javascript",
+    "js",
+    "platzi",
+    "fundamentos"
+  ],
+  "author": "Gabriel Nunez <gabriel.nzn@gmail.com> (https://github.com/gabrielnz)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "6.24.1",
+    "babel-preset-env": "1.4.0",
+    "chai": "3.5.0",
+    "mocha": "3.2.0"
+  }
+}
